@@ -1,0 +1,72 @@
+
+@mixin icon($height, $width) {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: $height;
+    width: $width;
+    background-color: var(--cl_txt_03);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+@mixin icon-before($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: var(--cl_txt_03);
+    content: "";
+    top: $top;
+    left: 0;
+}
+
+@mixin icon-after($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: var(--cl_txt_03);
+    content: "";
+    top: $top;
+    left: 0;
+}
+.menu--btn {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    outline: none;
+    .icon {
+        position: relative;
+        margin: 0 auto;
+        @include icon(3px, 30px);
+
+        &:before {
+            @include icon-before(3px, 30px, -10px);
+        }
+
+        &:after {
+            @include icon-after(3px, 30px, 10px);
+        }
+    }
+
+    &.open {
+        .icon {
+            transition-duration: 0.5s;
+            transform: rotateZ(180deg);
+
+            &:before {
+                width: 20px;
+                transform: rotateZ(45deg) scaleX(0.75) translate(21px, -8px);
+            }
+
+            &:after {
+                width: 20px;
+                transform: rotateZ(-45deg) scaleX(0.75) translate(21px, 8px);
+            }
+        }
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}

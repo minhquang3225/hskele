@@ -1,0 +1,339 @@
+{
+    "rep_avatar_binding": [
+        "lv2-data_rep_avatar_01, src",
+        "lv2-data_rep_avatar_02, src",
+        "lv2-data_rep_avatar_03, src"
+    ],
+    "rep_name_binding": [
+        "lv2-data_rep_name_01, text",
+        "lv2-data_rep_name_02, text",
+        "lv2-data_rep_name_03, text"
+    ],
+    "rep_id_binding": [
+        "lv2-data_rep_182_id, data-rep-id",
+        "lv2-data_rep_183_id, data-rep-id",
+        "lv2-data_rep_184_id, data-rep-id"
+    ],
+    "rep_edit_binding":[
+        "lv2-data_rep_edit_01, class",
+        "lv2-data_rep_edit_02, class",
+        "lv2-data_rep_edit_03, class"
+    ],
+    "rep_content_binding":[
+        "lv2-data_rep_content_01, text",
+        "lv2-data_rep_content_02, text",
+        "lv2-data_rep_content_03, text"
+    ],
+    "rep_target_binding":[
+        "lv2-data_rep_target_01, text",
+        "lv2-data_rep_target_02, text",
+        "lv2-data_rep_target_03, text"
+    ],
+    "data_hinhAnh": [
+        "https://gamek.mediacdn.vn/2018/5/28/photo-2-15274914323891168239324.jpg",
+        "https://bateszi.me/wp-content/uploads/2020/01/Keep-Your-Hands-Off-Eizouken-manga-7.png",
+        "https://300b5338.vws.vegacdn.vn/image/img.news/0/0/0/5137.jpg?v=1&w=628&h=365&nocache=1",
+        "https://image.ngaynay.vn/w980/Uploaded/HmdWyC/mzdaz/2020_09_24/https___hypebeast_com_image_2020_08_japan_life_size_gundam_now_complete_yokohama_info_tw_AIIX.jpg",
+        "https://vignette.wikia.nocookie.net/rezero/images/0/02/Echidna_Anime_PV_2.png/revision/latest?cb=20200611134057",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYJGK_hqe3Bzu0btie-8Z-U0JRuPpFneu-Uw&usqp=CAU"
+    ],
+    "data_sugThumbnail": [
+        "https://image.tienphong.vn/665x449/uploads/2018/01/5a5dcecf15bb2-garden-6-600x450.jpg",
+        "https://c1.staticflickr.com/1/946/40527121470_9ea0329d37_b.jpg",
+        "https://kenh14cdn.com/2017/photo-3-1512174831175.jpg",
+        "https://static.fptplay.net/static/img/share/video/28_07_2017/mmtuybq6hl24fxo0f3z4j2kg7kz28-07-2017_14g08-03.jpg",
+        "https://gamek.mediacdn.vn/2019/11/6/photo-1-15730357358012104066472.jpg",
+        "https://nefariousreviews.files.wordpress.com/2017/01/children-who-chase-lost-voices-featured.jpg?w=672&h=372&crop=1"
+    ],
+    "data_avatar": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3OIpRhs9dcAwPrZxLs-59vfdlGR_q9ChHJA&usqp=CAU",
+        "https://2.bp.blogspot.com/-1tjD-9GI22A/Vm4uTVBkL5I/AAAAAAAAArk/gqHoj5gj45c/s1600/%255Bgg%255D_Hyouka_-_03%2Bhotaru%2Bcoffee.png",
+        "https://a.wattpad.com/cover/216740724-256-k174540.jpg",
+        "https://vignette.wikia.nocookie.net/narutocouple/images/5/53/Naruto_and_Hinata_kiss.png/revision/latest?cb=20150520145043",
+        "../../assets/image/main_logo.png",
+        "https://nefariousreviews.files.wordpress.com/2017/01/children-who-chase-lost-voices-featured.jpg?w=672&h=372&crop=1"
+    ],
+    "data_sugTitle": [
+        "Vườn ngôn từ",
+        "5cm/s",
+        "Bên kia đám mây nơi ta hẹn ước",
+        "Tên bạn là gì",
+        "Đứa con thời tiết",
+        "Những đứa trẻ đuổi theo tinh tú"
+    ],
+    "data_sugSubTitle": [
+        "Garden of words",
+        "Five centimeters per second",
+        "The place promised in our early days",
+        "Your name",
+        "Weathering with you",
+        "Children who chase lost voices"
+    ],
+    "data_sugSubTitle2": [
+        "Kotonoha no niwa",
+        "Byousoku 5 senchimetoru",
+        "Kumo no Mukou, Yakusoku no Basho",
+        "Kimi no na wa",
+        "Tenki no ko",
+        "Hoshi wo Ou Kodomo"
+    ],
+    "data_notiMess": [
+        "DXG đã bình luận vào bài viết của bạn vào thứ 6 ngày 13/5",
+        "Bài viêt của bạn đã có 10 lượt yêu thích",
+        "Đăng khí premium để loại bỏ quảng cáo khó chịu, kích hoạt các chức năng kiếm tiền nâng cao, và có thể sử dụng những nội dung bản quyền trên trang",
+        "Bạn chưa đăng kí, đăng kí để nhận 1 tháng VIP và 1 thẻ proVIP",
+        "Bài viết của bạn đã nhận được 5 lượt yêu thích",
+        "VoTam đã bình luận về bài viết của bạn"
+    ],
+    "data_searchThumbnail": [
+        "https://chuuniotaku.com/wp-content/uploads/2019/03/nhung-cau-noi-hay-trong-5cm-s-1.jpg",
+        "https://i.ytimg.com/vi/URP_5tC1XRM/maxresdefault.jpg",
+        "https://revelogue.com/wp-content/uploads/2019/12/Akari-trong-5-centimet-tren-giay-e1576160961444.jpg",
+        "https://znews-photo-fbcrawler.zadn.vn/Uploaded/ymnuc/2016_07_25/5cm_thumb.gif.jpg",
+        "https://64.media.tumblr.com/2e4c23cab435db37bf36c16f5ecc276f/tumblr_on1do8VCpX1vflmfko1_500.jpg",
+        "https://2.bp.blogspot.com/-xt2rq-FASWA/UzvMsRRLueI/AAAAAAAAAPA/dlZ4skYacas/s1600/5cm+(6).jpg"
+    ],
+    "data_searchPostTitle": [
+        "Review tiểu thuyết 5 Centimet Trên Giây: Vài giây lỡ bước, hẹn ước không thành, để rồi khi chạm mặt thì chỉ còn là quá khứ",
+        "5cm/s - giữ làm sao được những cánh hoa bay",
+        "[Review Sách] “5 centimet trên giây” – Tình yêu nào cũng cần một chữ duyên",
+        "Bài cảm nhận: 5 Centimet trên giây và chạm tay kí ức.",
+        "5cm/s – Câu chuyện buồn của cánh hoa anh đào",
+        "5cm/s – Hình tượng Taki – Chàng trai si tình hay tên khốn ích kỉ?"
+    ],
+    "data_adsTitle": [
+        "Manga: 5cm/s (p1)",
+        "Manga: 5cm/s (p2)",
+        "Tiểu thuyết: 5cm/s",
+        "Tiểu thuyết: 5cm/s - one more side"
+    ],
+    "data_adsImage": [
+        "https://www.animenewsnetwork.com/hotlink/images/cms/house-of-1000-manga/72359/centimeters1.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-TLOrT975BoJkGJupX9mqC2uSFPnXdusF3g&usqp=CAU",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/5_centimet_tren_giay/2019_10_24_15_33_17_1.jpg",
+        "https://cf.shopee.vn/file/6c0beca686855e137c04dd97276b4a61"
+    ],
+    "data_userName": [
+        "Trần Minh Quang",
+        "Hội thích chơi sony nhưng không có tiền mua máy",
+        "Dio",
+        "Houtarou Oreki",
+        "Đảng và nhà nước",
+        "Evangelion"
+    ],
+    "data_rep_name": [
+        "Trần Minh Quang",
+        "Hội thích chơi sony nhưng không có tiền mua máy",
+        "Dio",
+        "Houtarou Oreki",
+        "Đảng và nhà nước",
+        "Evangelion"
+    ],
+    "lv2-data_rep_target_01":[
+        "@Trần Minh Quang",
+        "@Hội thích chơi sony nhưng không có tiền mua máy",
+        "@Dio",
+        "@Houtarou Oreki",
+        "@Đảng và nhà nước",
+        "@Evangelion"
+    ],
+    "lv2-data_rep_target_02":[
+        "@Fuu",
+        "@Trần Minh Quang",
+        "@Lisa der meer",
+        "@Houtarou Oreki",
+        "@Nguyễn Văn Lờ",
+        "@Dora Phạm"
+    ],
+    "lv2-data_rep_target_03":[
+        "@Pewdipier",
+        "@Y u sus",
+        "@Gia Lương",
+        "@Dio Again",
+        "@Trần Minh Quang",
+        "@Ánh Yêu"
+    ],
+    
+    "data_cmt_id": [
+        "cmt182",
+        "cmt183",
+        "cmt184"
+    ],
+    "data_show_btn_id": [
+        "showbtn182",
+        "showbtn183",
+        "showbtn184"
+    ],
+    "data_cmt_name": [
+        "Trần Minh Quang",
+        "Tuấn Rose",
+        "Fancisco Lopez"
+    ],
+    "data_cmt_avatar": [
+        "https://nguyen8.com/app/uploads/2020/03/04/7-vien-ngoc-rong-songoku.jpg",
+        "https://i.pinimg.com/originals/79/bb/06/79bb064880b703458b70b2a8e74c4ffa.jpg",
+        "https://space-facts.com/wp-content/uploads/saturn.png"
+    ],
+    "data_cmt_edit":[
+        "hidealpha",
+        "hidebeta",
+        "hidegamma"
+    ],
+    "lv2-data_rep_182_id": [
+        "rep1821",
+        "rep1822",
+        "rep1823",
+        "rep1824",
+        "rep1825",
+        "rep1826"
+    ],
+    "lv2-data_rep_183_id": [
+        "rep1831",
+        "rep1832",
+        "rep1833",
+        "rep1834",
+        "rep1835",
+        "rep1836"
+    ],
+    "lv2-data_rep_184_id": [
+        "rep1841",
+        "rep1842",
+        "rep1843",
+        "rep1844",
+        "rep1845",
+        "rep1846"
+    ],
+    "lv2-data_rep_avatar_01": [
+        "https://nguyen8.com/app/uploads/2020/03/04/7-vien-ngoc-rong-songoku.jpg",
+        "https://2.bp.blogspot.com/-1tjD-9GI22A/Vm4uTVBkL5I/AAAAAAAAArk/gqHoj5gj45c/s1600/%255Bgg%255D_Hyouka_-_03%2Bhotaru%2Bcoffee.png",
+        "https://i.pinimg.com/736x/c7/3d/fd/c73dfdf331574b091506b5da50f715c7.jpg",
+        "https://vignette.wikia.nocookie.net/narutocouple/images/5/53/Naruto_and_Hinata_kiss.png/revision/latest?cb=20150520145043",
+        "https://www.treehugger.com/thmb/29RDD8PACDC8jYCdc9dQ2OmJX40=/876x657/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2020__03__waterfall-ecuador-e92adde137ee4967837fd82d705d722c.jpg",
+        "https://nefariousreviews.files.wordpress.com/2017/01/children-who-chase-lost-voices-featured.jpg?w=672&h=372&crop=1"
+    ],
+    "lv2-data_rep_avatar_02": [
+        "https://www.treehugger.com/thmb/29RDD8PACDC8jYCdc9dQ2OmJX40=/876x657/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2020__03__waterfall-ecuador-e92adde137ee4967837fd82d705d722c.jpg",
+        "https://nguyen8.com/app/uploads/2020/03/04/7-vien-ngoc-rong-songoku.jpg",
+        "https://lucloi.vn/wp-content/uploads/2019/09/cau-vang.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQO1_LpEACpqRYMyMYQ-Z5zTCBK2i_0WngXrQ&usqp=CAU",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/1200px-NGC_4414_%28NASA-med%29.jpg",
+        "https://d6ce0no7ktiq.cloudfront.net/images/stickers/511.png"
+    ],
+    "lv2-data_rep_avatar_03": [
+        "https://www.indiewire.com/wp-content/uploads/2019/08/joker-phoenix-1135161-1280x0.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSWUHZqECM6oJwvLzBwNzlyfO7klvR6_0_OAw&usqp=CAU",
+        "https://cafefcdn.com/zoom/260_162/203337114487263232/2020/8/19/photo1597822755113-15978227552911794645639.png",
+        "https://images.pexels.com/photos/2577274/pexels-photo-2577274.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "https://nguyen8.com/app/uploads/2020/03/04/7-vien-ngoc-rong-songoku.jpg",
+        "https://i.pinimg.com/originals/a1/e1/45/a1e14587b2105bfc28d1cd8e578087c0.jpg"
+    ],
+    "lv2-data_rep_name_01":[
+        "Trần Minh Quang",
+        "Hội thích chơi sony nhưng không có tiền mua máy",
+        "Dio",
+        "Houtarou Oreki",
+        "Đảng và nhà nước",
+        "Evangelion"
+    ],
+    "lv2-data_rep_name_02":[
+        "Fuu",
+        "Trần Minh Quang",
+        "Lisa der meer",
+        "Houtarou Oreki",
+        "Nguyễn Văn Lờ",
+        "Dora Phạm"
+    ],
+    "lv2-data_rep_name_03":[
+        "Pewdipier",
+        "Y u sus",
+        "Gia Lương",
+        "Dio Again",
+        "Trần Minh Quang",
+        "Ánh Yêu"
+    ],
+    "lv2-data_rep_edit_01":[
+        "",
+        "hide",
+        "hide",
+        "hide",
+        "hide",
+        "hide"
+    ],
+    "lv2-data_rep_edit_02":[
+        "hide",
+        "",
+        "hide",
+        "hide",
+        "hide",
+        "hide"
+    ],
+    "lv2-data_rep_edit_03":[
+        "hide",
+        "hide",
+        "hide",
+        "hide",
+        "",
+        "hide"
+    ],
+    "lv2-data_rep_content_01":[
+        "Good post",
+        "That's so great",
+        "When we are no longer able to change a situation – we are challenged to change ourselves.",
+        "You shine brighter than my future.",
+        "Your surprising look sweeps me off my feet every time.",
+        "I had never seen true beauty until this day."
+    ],
+    "lv2-data_rep_content_02":[
+        "You are mine, please forever keep me near.",
+        "It’s raining cats and dogs",
+        "Stuck between a rock and a hard place",
+        " Honesty is the first chapter in the book of wisdom.",
+        "Always remember that you are absolutely unique. Just like everyone else.",
+        "The best and most beautiful things in the world cannot be seen or even touched – they must be felt with the heart."
+    ],
+    "lv2-data_rep_content_03":[
+        "Every Jack must have his Jill",
+        "Don’t judge each day by the harvest you reap but by the seeds that you plant.",
+        "The World is my country, all mankind are my brethren, and to do good is my religion.",
+        "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        "Change your thoughts and you change your world.",
+        "Sadness flies away on the wings of time."
+    ],
+    "data_cmt_content":[
+        "Thank you, your post is so beautifully, i wish i could write it like you but i think i can't. Love your your post so much. Thank you, your post is so beautifully, i wish i could write it like you but i think i can't. Love your your post so much.",
+        "Men are like armored things, mountainous assemblages of armor and leather, masonry even, which you are told will self-dismantle if you touch the right spot, and out will flow passionate attention.",
+        "The Captain’s wife played the harp; she had very long arms, silver as eels on those nights, and armpits as dark and mysterious as sea urchins; and the sound of the harp was sweet and piercing, so sweet and piercing it was almost unbearable, and we were forced to let out long cries, not so much to accompany the music as to protect our hearing from it."
+    ],
+    "data_post_category--text":[
+        "Chọn chủ đề",
+        "Anime/Manga",
+        "Comic/Cartoon",
+        "Điện ảnh",
+        "Âm nhạc",
+        "Hội họa",
+        "Văn học",
+        "Xã hội",
+        "Quan điểm tranh luận",
+        "Lập trình"
+
+    ],
+    "data_post_category--id":[
+        "0",
+        "5001",
+        "5002",
+        "5003",
+        "5004",
+        "5005",
+        "5006",
+        "5007",
+        "5008",
+        "5009"
+
+    ],
+    "":[],
+    "":[],
+    "":[],
+    "":[],
+    "":[],
+    "":[]
+}

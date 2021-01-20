@@ -1,0 +1,15 @@
+Phần showing.js thì ta phải xử dụng chức năng sau 2 mode toggle cho 2 sự kiện khác nhau :)
+Lưu ý: + fix lỗi màu chữ tại phần phản hồi
+Giao diện:
+    + Thay đổi scrollbar;
+    + Hiệu ứng hover cho phần post
+    + Tìm hiểu về picture, load ảnh theo kích thước màn hình (https://viblo.asia/p/the-picture-va-ung-dung-bWrZn1RYKxw), nhớ dùng javascript để tự tạo hình ảnh
+    + Note lại văn phong
+    + Làm hiệu ứng greensock sau
+    + Thêm phần read more cho cmt
+    + Thêm phàn check comment, xác nhận khi xóa cmt đang viết
+Update tính năng: Cho chọn nhiều chủ đề hơn
+    + Lấy spiderum làm động lực
+    + Hoshisky là gì, mik tin là nhiều bạn đam mê viết, và muốn coi việc viết là một nghề tay trái,
+    + Học về cách setup ckeditor
+    (review một tác phẩm ms là mục tiêu ban đầu của mik) + (nhưng trên tất cả thì phát triển trên facebook) 

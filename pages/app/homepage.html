@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Put feel on your line</title>
+    <link rel="shortcut icon" href="https://images.photowall.com/products/55141/starry-night-sky.jpg?h=699&q=85" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/homepage.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/fonts/fontawesome-pro-5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/flexSystem.css">
+    <!-- <script src="../../assets/js/importHTML.js async"></script> -->
+</head>
+<body class="dark-theme">
+    <div class="container">
+        <nav insert="../../html_e/nav.html" id="general-navbar"></nav>
+        <aside class="sidebar__left"></aside>
+        <main class="homepage__wrapper">
+            <section class="breadcrumb__wrapper" insert="../../html_e/breadcrumb.html"></section>
+            <section class="feature-post__wrapper" insert="../../html_e/feature-post.html"></section>
+            <section class="feature-dlg__wrapper" insert="../../html_e/feature-dlg.html"></section>
+        </main>
+        <aside class="sidebar__right"></aside>
+        <!-- <footer insert="../../html_e/footer.html"></footer> -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+    <script src="../../assets/js/script.js"></script>
+    <!-- <script src="../../assets/js/observer.js"></script> -->
+    <script src="../../assets/js/nav.js" defer></script>
+    <script src="../../assets/js/showing.js"></script>
+    <script src="../../assets//js/dialog.js"></script>
+    <!-- <script src="../../assets/js/modal.js"></script> -->
+    <script src="../../assets/js/tab.js" ></script>
+    <script src="../../assets/js/search.js" defer></script>
+    <script>
+        setTimeout(() => {
+            MakeClone([
+                {
+                    eleName: '.postItem-full',
+                    numClone: 6,
+                    loopTimes: 3,
+                },
+                {
+                    eleName: '.list-item',
+                    numClone: 6,
+                    loopTimes: 2,
+                },
+                {
+                    eleName: '.mess',
+                    numClone: 6,
+                    loopTimes: 2,
+                }
+
+            ])
+        }, 500)
+    </script>
+</body>
+</html>

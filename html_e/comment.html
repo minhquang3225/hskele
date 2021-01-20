@@ -1,0 +1,106 @@
+<div class="comment__title section-title">
+    Bình luận <span data-toggle="showing" data-showing-modes="toggle-showing" data-targets=".comment__content" data-toggle-class="active" class="fas extend-section--btn"></span>
+</div>
+<form class="comment-form__wrapper">
+    <a class="comment-form__avatar" href="#">
+        <picture class="imgBx">
+            <img src="https://nguyen8.com/app/uploads/2020/03/04/7-vien-ngoc-rong-songoku.jpg" alt="" srcset="">
+        </picture>
+    </a>
+    <div class="comment-form__input">
+        <textarea  name="" rows="1"  id="" placeholder="Bạn nghĩ gì về bài viết" data-toggle="showing" data-showing-modes="showing" data-targets-in=".comment-form__cancel--btn, .comment-form__post--btn" 
+        data-event-names="focus"
+            oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' ></textarea>
+    </div>
+    <button class="comment-form__cancel--btn hide" type="button" data-toggle="showing" data-showing-modes="hiding" data-targets-out=".comment-form__cancel--btn, .comment-form__post--btn">Hủy</button>
+    <button type="button" class="comment-form__post--btn hide">Bình luận</button>
+</form>
+<ul class="comment__content hide">
+    <li class="cmt__wrapper" data-sets="data_cmt_id" data-props="data-cmt-id">
+        <a href="#" class="avatar--root">
+            <picture class="imgBx">
+                <img src="https://nguyen8.com/app/uploads/2020/03/04/7-vien-ngoc-rong-songoku.jpg"
+                    alt="" data-sets="data_cmt_avatar" data-props="src">
+            </picture>
+        </a>
+        <a class="name--root" href="#" data-sets="data_cmt_name" data-props="text">Trần Minh Quang
+        </a>
+        <div class="time--root">4h trước <span class="isEdit show">(đã chỉnh sửa)</span>
+        </div>
+        <div class="content--root" data-sets="data_cmt_content" data-props="text">Thank you, your post is so beautifully, i wish i could write it like you but i think i can't. Love your your post so much. Thank you, your post is so beautifully, i wish i could write it like you but i think i can't. Love your your post so much. </div>
+        <div class="funcbar--root">
+            <button class="funcbar__love--btn--root active"><span class="count">14 </span> &nbsp;<i
+                    class="far fa-heart"></i></button>
+            <button class="funcbar__answer--btn--root" data-toggle="showing" data-showing-modes="toggle-showing" data-targets=".comment-form__wrapper--root" data-relp-level="2"
+                    data-userId="@1343223" data-userName="It was me, DIO"><i
+                    class="far fa-comment-alt    "></i> &nbsp; Trả lời </button>
+            <button class="funcbar__edit--btn--root" data-toggle="showing" data-showing-modes="hiding showing" 
+                data-targets-out=".time--root, .name--root, .content--root, .funcbar--root, .comment-form__avatar " 
+                data-targets-in=".comment-form__wrapper--root" data-relp-level="2" data-sets="data_cmt_edit" data-props="class">
+                    <i class="far fa-pencil-alt" 
+                    ></i> &nbsp; Chỉnh sửa </button>
+            <button class="funcbar__delete--btn--root"><i class="far fa-trash"></i> &nbsp; Xóa </button>
+            <button class="funcbar__report--btn--root"><i class="far fa-flag"></i> Báo cáo </button>
+        </div>
+        <form class="comment-form__wrapper--root hide">
+            <a class="comment-form__avatar" href="#">
+                <picture class="imgBx">
+                    <img src="https://nguyen8.com/app/uploads/2020/03/04/7-vien-ngoc-rong-songoku.jpg" alt="" srcset="">
+                </picture>
+            </a>
+            <div class="comment-form__input">
+                <textarea name="" rows="1"  id="" placeholder="Nhấn enter để đăng lên"
+                    oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea>
+            </div>
+            <button class="comment-form__cancel--btn" type="button" data-toggle="showing" data-showing-modes="hiding showing"
+                data-targets-out=".comment-form__wrapper--root" data-targets-in=".time--root, .name--root, .content--root, .funcbar--root, .comment-form__avatar" data-relp-level="2">Hủy</button>
+            <button type="button" class="comment-form__post--btn">Bình luận</button>
+        </form>
+        <button class="answer-show--btn" data-sets="data_show_btn_id" data-props="data-show-btn-id"data-toggle="showing" data-showing-modes="toggle-showing" data-targets=".answer__wrapper" data-relp-level="1" data-toggle-class="active" data-toggle-target="span"> Xem 10 câu trả lời  <span class="fas extend-section--btn"></span> </button>
+        <ul class="answer__wrapper hide">
+            <li class="rep__wrapper" data-binding="rep_id_binding">
+                <a href="#xyz" class="rep__avatar">
+                    <picture class="imgBx">
+                        <img data-binding="rep_avatar_binding" src="https://i.pinimg.com/736x/c7/3d/fd/c73dfdf331574b091506b5da50f715c7.jpg" alt=""
+                            srcset="">
+                    </picture>
+                </a>
+                <a class="name" href="#" data-binding="rep_name_binding">It was me Dio </a>
+                <div class="time">4h trước <span class="isEdit">(đã
+                        chỉnh
+                        sửa)</span></div>
+                <div class="content" data-binding="rep_content_binding">Thank you, your post is so beautifully, i wish i could write it like you but i think i can't. Love your your post so much. Thank you, your post is so beautifully, i wish i could write it like you but i think i can't. Love your your post so much. </div>
+                <div class="funcbar">
+                    <button class="funcbar__love--btn"><span class="count"> 14 &nbsp;</span><i
+                            class="far fa-heart"></i></button>
+                    <button class="funcbar__answer--btn" data-toggle="showing" data-showing-modes="toggle-showing" data-targets=".comment-form__wrapper" data-relp-level="2" ><i class="far fa-comment-alt" ></i> &nbsp; Trả lời
+                    </button>
+                    <button class="funcbar__edit--btn" data-toggle="showing" data-showing-modes="hiding showing" 
+                    data-targets-out=".time, .name, .content, .funcbar, .comment-form__avatar " 
+                    data-targets-in=".comment-form__wrapper" data-relp-level="2" data-binding="rep_edit_binding">
+                        <i class="far fa-pencil-alt" 
+                        ></i>&nbsp;  Chỉnh sửa </button>
+                    <button class="funcbar__report--btn"><i class="far fa-flag    "></i>&nbsp;  Báo cáo </button>
+
+                </div>
+                <form class="comment-form__wrapper hide"  >
+                    <a class="comment-form__avatar" href="#">
+                        <picture class="imgBx">
+                            <img src="https://nguyen8.com/app/uploads/2020/03/04/7-vien-ngoc-rong-songoku.jpg" alt=""
+                                srcset="">
+                        </picture>
+                    </a>
+                    <div class="comment-form__input">
+                        <span class="tag" data-binding="rep_target_binding">@It was me Dio</span>
+                        <textarea name="" rows="1"
+                            oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea>
+                    </div>
+                    <button class="comment-form__cancel--btn" type="button" data-toggle="showing" data-showing-modes="showing hiding" data-targets-in=".time, .name, .content, .funcbar, .comment-form__avatar"
+                    data-targets-out=".comment-form__wrapper" data-relp-level="2">Hủy</button>
+                    <button type="button" class="comment-form__post--btn">Bình luận</button>
+                </form>
+            </li>
+        </ul>
+    </li>
+</ul>
+<button class="comment__show--btn" data-toggle="showing" data-showing-modes="toggle-showing" data-targets=".comment__content" data-toggle-class="active" data-toggle-target="span"> Xem thêm 20 bình luận <span class="fas extend-section--btn"></span> </button>

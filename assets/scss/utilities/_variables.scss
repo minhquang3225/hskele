@@ -1,0 +1,139 @@
+$cl_white_01: #fff;
+$cl_black_01: #000;
+$cl_green_01: green;
+$cl_green_02: lime;
+$cl_blue_01: blue;
+$cl_blue_02: cyan;
+$cl_orange_01: orange;
+$cl_red_01: red;
+$cl_yellow_01: yellow;
+
+
+$cl_bg_01-d: #12181b;           $cl_bg_01-l: rgb(240, 242, 245);;
+$cl_bg_02-d: #2a2e35;           $cl_bg_02-l: #f2f2f2;
+$cl_bg_03-d: #2e3234;           $cl_bg_03-l: #CFD2D7;
+$cl_bg_04-d: #ff7575;           $cl_bg_04-l: #12181b;
+$cl_bg_navb-d: #2e2e35;         $cl_bg_navb-l:#12181b;
+$cl_bg_foot-d: transparent;       $cl_bg_foot-l:#12181b;
+$cl_bg_dlog-d: #12181b;         $cl_bg_dlog-l:#f1f1f1;
+
+$cl_theme_01-d: #ff7575;        $cl_theme_01-l: #005A34;
+$cl_theme_02-d: #ffa2a2;        $cl_theme_02-l: #00C529;
+$cl_theme_03-d: #000;           $cl_theme_03-l: #fff;
+
+
+$cl_txt_01-d: #f8f8f8;          $cl_txt_01-l: #000000;
+$cl_txt_02-d: #b2becd;          $cl_txt_02-l: #161616;
+$cl_txt_03-d: #b2becd;          $cl_txt_03-l: #f8f8f8;
+$cl_txt_04-d: #f8f8f8;          $cl_txt_04-l: #fff;
+
+
+
+//shadow color
+$cl_shadow_01-d: #1d2025;       $cl_shadow_01-l: #f1f1f1;
+$cl_shadow_02-d: #373c45;       $cl_shadow_02-l: #efefef;
+$cl_shadow_03-d: #0f1316;       $cl_shadow_03-l: #dadada;
+$cl_shadow_04-d: #161d20;       $cl_shadow_04-l: #fff;
+$cl_shadow_05-d: #1d2025;       $cl_shadow_05-l: #070a0b;  //tối màu
+$cl_shadow_06-d: #373c45;       $cl_shadow_06-l: #1d262b;  //sáng màu
+
+
+$theme-dark: (
+    "cl_bg_02":     $cl_bg_02-d,
+    "cl_bg_01":     $cl_bg_01-d,
+    "cl_bg_03":     $cl_bg_03-d,
+    "cl_bg_04":     $cl_bg_04-d,
+    "cl_bg_navb":   $cl_bg_navb-d,
+    "cl_bg_foot":   $cl_bg_foot-d,
+    "cl_bg_dlog":   $cl_bg_dlog-d,
+    "cl_txt_01":    $cl_txt_01-d,
+    "cl_txt_02":    $cl_txt_02-d,
+    "cl_txt_03":    $cl_txt_03-d,
+    "cl_txt_04":    $cl_txt_04-d,
+    "cl_theme_01":  $cl_theme_01-d,
+    "cl_theme_02":  $cl_theme_02-d,
+    "cl_theme_03":  $cl_theme_03-d,
+    "cl_shadow_01": $cl_shadow_01-d,
+    "cl_shadow_02": $cl_shadow_02-d,
+    "cl_shadow_03": $cl_shadow_03-d,
+    "cl_shadow_04": $cl_shadow_04-d,
+    "cl_shadow_05": $cl_shadow_05-d,
+    "cl_shadow_06": $cl_shadow_06-d,
+);
+
+$theme-light: (
+    "cl_bg_01":     $cl_bg_01-l,
+    "cl_bg_02":     $cl_bg_02-l,
+    "cl_bg_03":     $cl_bg_03-l,
+    "cl_bg_04":     $cl_bg_04-l,
+    "cl_bg_navb":   $cl_bg_navb-l,
+    "cl_bg_dlog":   $cl_bg_dlog-l,
+    "cl_bg_foot":   $cl_bg_foot-l,
+    "cl_txt_01":    $cl_txt_01-l,
+    "cl_txt_02":    $cl_txt_02-l,
+    "cl_txt_03":    $cl_txt_03-l,
+    "cl_txt_04":    $cl_txt_04-l,
+    "cl_theme_01":  $cl_theme_01-l,
+    "cl_theme_02":  $cl_theme_02-l,
+    "cl_theme_03":  $cl_theme_03-l,
+    "cl_shadow_01": $cl_shadow_01-l,
+    "cl_shadow_02": $cl_shadow_02-l,
+    "cl_shadow_03": $cl_shadow_03-l,
+    "cl_shadow_04": $cl_shadow_04-l,
+    "cl_shadow_05": $cl_shadow_05-l,
+    "cl_shadow_06": $cl_shadow_06-l,
+);
+
+//radius
+$r_hard: 16px;
+$r_medium: 10px;
+$r_soft: 5px;
+$r_thin: 2px;
+$r_round: 50%;
+
+//padding
+// $pd-0: 3px;
+$pd-0: 3px;
+$pd-1: 5px;
+$pd-2: 7px;
+$pd-3: 10px;
+$pd-4: 15px;
+$pd-5: 20px;
+$pd-6: 30px;
+$pd-7: 40px;
+$pd-8: 50px;
+$pd-a: 8%;
+
+//margin
+$mg-0: 3px;
+$mg-1: 5px;
+$mg-2: 7px;
+$mg-3: 10px;
+$mg-4: 15px;
+$mg-5: 20px;
+$mg-6: 30px;
+$mg-7: 40px;
+$mg-8: 50px;
+
+//width & height
+$h_nav: 55px;
+$h_breadcrumb: 60px;
+$w_container: 1700px;
+//line-height
+$line-height-0: 1.43; //default
+
+$shadow_0: (0px 0px 5px $cl_black_01);
+$shadow_1: (-20px 0px 10px $cl_black_01);
+$shadow_3: (0px 0px 4px rgba(0, 0, 0, 0.38));
+
+//line_distance
+$line_mg-2: 20px;
+$line_weght-medium: 5px;
+
+//break points
+$breakpoints: (
+    "extra-large": 1200px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+);

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gotu&display=swap");
+
+//font-family;
+$base-font-family: "Tahoma", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$alt-font-family: "Gotu", Georgia, sans-serif;
+$branch-font-family: "";
+// font size
+$txt-base-size: .85rem; // body font-size
+$txt-scale-ratio-lv1: 1.1; // multiplier used to generate the scale values 👇
+$txt-scale-ratio-lv2: 1.2;
+$txt-scale-ratio-lv3: 1.5;
+
+// type scale
+$txt-xs: ($txt-base-size /$txt-scale-ratio-lv1 /$txt-scale-ratio-lv1);
+$txt-sm: ($txt-xs *$txt-scale-ratio-lv1);
+$txt-md: ($txt-sm *$txt-scale-ratio-lv1 *$txt-scale-ratio-lv1);
+$txt-lg: ($txt-md *$txt-scale-ratio-lv1);
+$txt-xl: ($txt-lg *$txt-scale-ratio-lv1);
+$txt-xxl: ($txt-xl *$txt-scale-ratio-lv2);
+$txt-xxxl: ($txt-xxl *$txt-scale-ratio-lv1);
+$txt-xxxxl: ($txt-xxxl *$txt-scale-ratio-lv3);
+$txt-xxxxxl: ($txt-xxxxl *$txt-scale-ratio-lv1);
+
+//lineheight
+$heading-line-height: 1.2;
+$body-line-height: 1.58;
+// $line-height-multiplier: 1; // modify line-height of all txt elements
+// $txt-vspace-multiplier: 6; // modify vertical spacing
+
+// screen scale;
+// @include breakpoint(extra-large) {
+//     :root {
+//         $txt-base-size: 1.25em;
+//        $txt-scale-ratio-lv1: 1.25;
+//     }
+// }
+@include breakpoint(large) {
+    $txt-base-size: 1.25em;
+   $txt-scale-ratio-lv1: 1.25;
+   $txt-scale-ratio-lv1: 1.5;
+}
+@include breakpoint(medium) {
+    $txt-base-size: 1.25em;
+   $txt-scale-ratio-lv1: 1.25;
+}
+@include breakpoint(small) {
+    $txt-base-size: 1.25em;
+   $txt-scale-ratio-lv1: 1.25;
+}

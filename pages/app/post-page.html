@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" contenlt="ie=edge">
+    <title>Put feel on your line</title>
+    <link rel="shortcut icon" href="https://images.photowall.com/products/55141/starry-night-sky.jpg?h=699&q=85"
+        type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/post-page.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/fonts/fontawesome-pro-5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/flexSystem.css">
+</head>
+
+<body class="dark-theme">
+    <div class="container">
+        <nav insert="../../html_e/nav.html" id="general-navbar" class=""></nav>
+        <aside class="sidebar__left"></aside>
+        <section class="breadcrumb__wrapper" insert="../../html_e/breadcrumb.html"></section>
+        <main class="post-page__wrapper">
+            <div class="post-page__wrapper--left">
+                <section class="funcbar__wrapper" insert="../../html_e/funcbar.html"> </section>
+            </div>
+            <div class="post-page__wrapper--center">
+                <article class="post__wrapper" insert="../../html_e/post.html"></article>
+                <section class="rating__wrapper" insert="../../html_e/rating.html"></section>
+                <section class="comment__wrapper" insert="../../html_e/comment.html"></section>
+            </div>
+            <div class="post-page__wrapper--right">
+                
+            </div>
+            <div class="post-page__wrapper--bottom">
+                <section class="post-sug__wrapper" insert="../../html_e/post-sug.html"></section>
+            </div>
+            <!-- <div class="box2"></div> -->
+        </main>
+        <aside class="sidebar__right">
+            <section class="affl-ads__wrapper" insert="../../html_e/affl-ads.html"></section>
+        </aside>
+        <footer insert="../../html_e/footer.html"></footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+    <script src="../../assets/js/script.js"></script>
+    <script src="../../assets/js/observer.js"></script>
+    <script src="../../assets/js/nav.js" defer></script>
+    <script src="../../assets/js/tab.js"></script>
+    <script src="../../assets/js/search.js"></script>
+    <script src="../../assets/js/class.js"></script>
+    <script src="../../assets/js/modal.js" defer></script>
+    <script src="../../assets/js/comment.js" defer></script>
+    <script src="../../assets/js/showing.js" defer></script>
+    <script src="../../assets/js/dialog.js"></script>
+    <script src="../../assets/js/post-page.js"></script>
+    <script>
+        setTimeout(() => {
+            MakeClone([
+                {
+                    eleName: '.list-item',
+                    numClone: 6,
+                    loopTimes: 2,
+                },
+                {
+                    eleName: '.mess',
+                    numClone: 6,
+                    loopTimes: 2,
+                },
+                {   
+                    eleName: '.cmt__wrapper',
+                    numClone: 3,
+                    loopTimes: 1,
+                    // levelData: 1,
+                },
+                {
+                    eleName: '.rep__wrapper',
+                    numClone: 6,
+                    loopTimes: 1,
+                    levelData: 2,
+                },
+                {
+                    eleName: '.prod-item',
+                    numClone: 4,
+                    loopTimes: 1
+                },
+                {
+                    eleName: '.post-item__wrapper',
+                    numClone: 6,
+                    loopTimes: 1
+                },
+                
+            ]);
+        }, 900)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.generateMap": false,
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": "~/../../css/"
+			}
+		],
+		"open-php-html-js-in-browser.documentRootFolder": "E:\\xampp\\htdocs\\",
+		"open-php-html-js-in-browser.selectedBrowser": "Custom...",
+		"open-php-html-js-in-browser.urlToOpen": "file:///",
+		"open-php-html-js-in-browser.customBrowserPath": "C:\\Users\\Dell Precision\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs",
+		"liveServer.settings.port": 5502,
+	}
+}

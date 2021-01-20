@@ -1,0 +1,12 @@
+.admin-header__wrapper{
+    background-color: var(--cl_bg_navb);
+    height: $h_horizontal_navbar;
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1000;
+    
+}

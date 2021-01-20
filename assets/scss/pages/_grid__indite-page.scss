@@ -1,0 +1,91 @@
+// .sidebar__left {
+//     // border: 2px dashed violet;
+//     grid-column: span 3;
+// }
+
+.indite-page__wrapper {
+    display: grid;
+    grid-column: 2 / span 23;
+    grid-template-columns: repeat(24, 1fr);
+    .indite-page__wrapper--top {
+        grid-column: span 24;
+        .admin-header__wrapper {
+            .menu--btn {
+            }
+        }
+    }
+    .indite-page__wrapper--left {
+        grid-column: span 2;
+        padding: $mg-3;
+    }
+    .indite-page__wrapper--center {
+        grid-column: span 20;
+        & > [class^="post"] {
+            display: grid;
+            grid-template-columns: repeat(24, 1fr);
+            & > label {
+                grid-column: span 3;
+            }
+            
+            .post-title--input, .post-category--input,
+            #post-editor, .post-classify__content {
+                grid-column: 4 / span 20;
+                
+            }
+            .post-classify__title{
+                grid-column: span 24;
+            }
+            .post-classify__content{
+                grid-column: 4 /span 20;
+            }
+            [class^='classify-gr']{
+                display: grid;
+                grid-template-columns: repeat(24, 1fr);
+                .title{
+                    grid-column: span 4;
+                    // border: 1px dashed cyan;
+                }
+            }
+            
+            [class*="opts"]{
+                grid-column: span 14;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                label{
+                    grid-column: span 6;        
+                }
+                // border: 1px dashed violet;
+            }
+            [class*="more"]{
+                grid-column: span 6
+            }
+            .classify-gr--detail{
+                .input-gr{
+                    grid-column: span 14;
+                    display: grid;
+                    grid-template-columns: repeat(12, 1fr);
+                    label{
+                        grid-column: span 4;
+                    }
+                    input{
+                        grid-column: span 6;
+                    }
+                    .search-sug__wrapper{
+                        grid-column: 5 /span 6 ;
+                    }
+                }
+            }
+            
+            
+        }
+        
+    }
+    .indite-page__wrapper--right {
+        grid-column: span 2;
+        padding: $mg-3;
+    }
+    .indite-page__wrapper--bottom {
+        grid-column: span 24;
+        padding: $mg-3;
+    }
+}

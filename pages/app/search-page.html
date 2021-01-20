@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Put feel on your line</title>
+    <link rel="shortcut icon" href="https://images.photowall.com/products/55141/starry-night-sky.jpg?h=699&q=85" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/search-page.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/fonts/fontawesome-pro-5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/flexSystem.css">
+</head>
+
+<body class="dark-theme">
+    <div class="container">
+        <nav insert="../../html_e/nav.html" id="general-navbar"></nav>
+        <aside class="sidebar__left"></aside>
+        <main class="search-page__wrapper">
+            <nav class="breadcrumb__wrapper" insert="../../html_e/breadcrumb.html"></nav>
+            <section class="search-rs__wrapper" insert="../../html_e/search-rs.html"></section>
+            <aside class="affl-ads__wrapper" insert="../../html_e/affl-ads.html"> </aside>
+        </main>
+        <aside class="sidebar__right"></aside>
+        <footer insert="../../html_e/footer.html"></footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+    <script src="../../assets/js/script.js"></script>
+    <script src="../../assets/js/search-page.js"></script>
+    <script src="../../assets/js/nav.js" async></script>
+    <script src="../../assets/js/tab.js" async></script>
+    <script src="../../assets/js/search.js" async></script>
+    <script>
+        setTimeout(() => {
+            MakeClone([
+                {
+                    eleName: '.list-item',
+                    numClone: 6,
+                    loopTimes: 2
+                },
+                {
+                    eleName: '.mess',
+                    numClone: 6,
+                    loopTimes: 2
+                },
+                {
+                    eleName: '.post-item__wrapper',
+                    numClone: 6,
+                    loopTimes: 3
+                },
+                {
+                    eleName: '.prod-item',
+                    numClone: 4,
+                    loopTimes: 1
+                }
+            ])
+          
+        }, 1200)
+    </script>
+</body>
+
+</html>

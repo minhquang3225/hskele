@@ -1,0 +1,106 @@
+<label class="post-classify__title">Phân loại</label>
+<div class="post-classify__content">
+    <div class="classify-gr--series">
+        <div class="title section-title classify-series__title">
+            Chuỗi bài viết:
+        </div>
+        <div class="series__opts">
+            <label for="series1" class="radio" data-toggle="showing" data-showing-modes="showing"
+                data-targets-in=".classify-gr--intent">
+                <input type="radio" name="series" id="series1" class="hidden" />
+                <span class="label"></span>Đơn
+            </label>
+            <label for="series2" class="radio" data-toggle="showing" data-showing-modes="showing"
+                data-event-names="checked" data-targets-in=".classify-gr--intent">
+                <input type="radio" name="series" id="series2" class="hidden" />
+                <span class="label"></span>Nhiều phần(phần 1, phần 2...)
+            </label>
+        </div>
+        <div class="series__more">
+            <label for="post-number" class="col-6 col-xm- col-sm- col-md- col-lg- col-xl-">Số kì dự
+                định</label>
+            <input type="number" class="col-6 col-xm- col-sm- col-md- col-lg- col-xl- offset-4" name="" id="post-number"
+                value="1" disabled>
+        </div>
+    </div>
+    <div class="classify-gr--intent">
+        <div class="title section-title">
+            Chủ đề
+        </div>
+        <div class="intent__opts" id="opts-gr-1">
+            <label for="intent1" class="radio">
+                <input type="radio" name="intent" id="intent1" class="hidden" />
+                <span class="label"></span>Phân tích, đánh giá, cảm nhận
+            </label>
+            <label for="intent2" class="radio">
+                <input type="radio" name="intent" id="intent2" class="hidden" />
+                <span class="label"></span>So sánh nhân vật, tác phẩm
+            </label>
+            <label for="intent3" class="radio">
+                <input type="radio" name="intent" id="intent3" class="hidden" />
+                <span class="label"></span>Chấm điểm, xếp hạng
+            </label>
+        </div>
+    </div>
+    <div class="classify-gr--focus">
+        <div class="title section-title">
+            Trọng tâm
+        </div>
+        <div class="focus__opts" id="opts-gr-1">
+            <label for="focus1" class="radio">
+                <input type="radio" name="focus" id="focus1" class="hidden" />
+                <span class="label"></span>Tác phẩm
+            </label>
+            <label for="focus2" class="radio">
+                <input type="radio" name="focus" id="focus2" class="hidden" />
+                <span class="label"></span>Nhân vật
+            </label>
+            <label for="focus3" class="radio">
+                <input type="radio" name="focus" id="focus3" class="hidden" />
+                <span class="label"></span>Tác giả
+            </label>
+            <label for="focus4" class="radio">
+                <input type="radio" name="focus" id="focus4" class="hidden" />
+                <span class="label"></span>Studio, nhà phát hành
+            </label>
+        </div>
+    </div>
+    <div class="classify-gr--detail">
+        <div class="title section-title">
+            Chi tiết
+        </div>
+        <div class="detail__opts" id="opts-gr-1">
+            <div class="input-gr" id="book">
+                <label for="Tên tác phẩm"> Tên anime/manga </label>
+                <input type="text" name="detail" id="detail1" class="" autocomplete="off" data-toggle="dialog"
+                    data-target=".search-sug__list" data-toggle-btn="true" data-relp-level="1"/>
+                <div class="search-sug__wrapper ">
+                    <ul class="search-sug__list">
+                        <li>Naruto</li>
+                        <li>Naruto: The next generation</li>
+                        <li>Naruto: The last</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input-gr" id="char">
+                <label for="Tên tác phẩm"> Tên nhân vật </label>
+                <input type="text" id="detail2" class="" data-toggle="dialog"
+                data-target=".search-sug__list" data-relp-level="1"/>
+                <div class="search-sug__wrapper ">
+                    <ul class="search-sug__list">
+                        <li>Naruto Uzumaki</li>
+                        <li>Uchiha Sasuke</li>
+                        <li>Haruno Sakura</li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+        <div class="detail__more">
+            <label for="post-number" class="col-6 col-xm- col-sm- col-md- col-lg- col-xl-">Đề xuất thêm mục</label>
+            <textarea resized="none"></textarea>
+            <button type="submit" class="detail col-24 col-xm- col-sm- col-md- col-lg- col-xl-">Gửi</button>
+        </div>
+    </div>
+
+</div>

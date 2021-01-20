@@ -1,0 +1,72 @@
+.search-page__wrapper {
+    height: fit-content;
+    color: var(--cl_txt_02);
+    // overflow: hidden;
+    .sidebar__left {
+        grid-column: span 2;
+    }
+    .search-rs__wrapper {
+        .search-rs__title {
+            // margin-bottom: $mg-5;
+            // font-size: $txt-xxl;
+            strong{
+                // display: block;
+                font-size: $txt-xxxl;
+            }
+        }
+        .post-item__wrapper {
+            position: relative;
+            border-radius: $r_soft;
+            overflow: hidden;
+            & > * {
+                // margin-bottom: $mg-1;
+                // border: .5px dashed violet;
+                height: fit-content;
+            }
+        }
+        .post-item__thumbnail {
+            display: block;
+            overflow: hidden;
+        }
+        .post-item__title {
+            color: var(--cl_txt_01);
+            font-size: $txt-xl;
+            @include multiLineEllipsis($lineHeight: 1.2em, $lineCount: 4, $bgColor: var(--cl_bg_01));
+            &:hover {
+                color: var(--cl_theme_02);
+            }
+            // margin-top: $mg-2;
+        }
+        .post-item__date {
+            background-color: var(--cl_bg_02);
+            padding: $mg-0 $mg-2;
+            border-radius: $r_thin;
+            font-size: $txt-sm;
+            width: fit-content;
+        }
+        .post-item__rating {
+            text-align: center;
+            position: absolute;
+            top: $pd-0;
+            right: $pd-0;
+            color: var(--cl_txt_03);
+            font-size: $txt-sm;
+            @include background-opacity(#12181b, 0.1);
+            padding: $pd-0 $pd-3;
+            border-radius: $r_soft;
+            // transform: translateY(-50%);
+            i {
+                color: $cl_orange_01;
+                margin-left: $mg-1;
+            }
+        }
+        .post-item__author {
+            text-align: right;
+            font-size: $txt-md;
+            // margin-top: $mg-2;
+        }
+        em {
+            margin-left: $mg-2;
+        }
+    }
+}

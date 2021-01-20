@@ -1,0 +1,135 @@
+.sidebar__right {
+    // border: 2px dashed violet;
+    grid-column: span 6;
+    padding: $mg-3;
+}
+.sidebar__left {
+    // border: 2px dashed violet;
+    grid-column: span 3;
+    padding: $mg-3;
+}
+.breadcrumb__wrapper {
+    grid-column: span 15;
+}
+.post-page__wrapper {
+    position: relative;
+    display: grid;
+    grid-column: span 15;
+    grid-template-columns: repeat(24, 1fr);
+    .post-page__wrapper--left{
+        grid-column: span 9;
+        padding: $mg-3;
+    }
+    .post-page__wrapper--center{
+        grid-column: span 12;
+        padding: $mg-3;
+    }
+    .post-page__wrapper--right{
+        grid-column: span 3;
+        padding: $mg-3;
+    }
+    .post-page__wrapper--bottom{
+        grid-column: span 24;
+        padding: $mg-3;
+        .post-sug__content{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 0 30px;
+            .post-item__wrapper{
+                display: grid;
+                grid-template-columns: repeat(24, 1fr);
+                grid-template-rows: repeat(24, 1fr);
+            }
+            .post-item__thumbnail{
+                grid-column: span 24;
+                grid-row: span 12;
+            }
+            .post-item__date{
+                grid-column: span 24;
+                grid-row: span 2;
+            }
+            .post-item__title{
+                grid-column: span 24;
+                grid-row: span 6;
+            }
+            .post-item__author{
+                grid-column: span 24;
+                grid-row: span 4;
+            }
+        }
+    }
+    .comment__wrapper {        
+        [class^="comment-form__wrapper"]{
+            grid-column: 2 /span 23;
+            display: grid;
+            grid-template-columns: repeat(24, 1fr);
+            .comment-form__avatar{
+                grid-column: span 1;
+            }
+            .comment-form__input{
+                grid-column: 3/span 22;
+            }
+            .comment-form__cancel--btn{
+                grid-column: 16 / span 4;
+            }
+            .comment-form__post--btn{
+                grid-column: 21 / span 4;
+            }
+        }
+        .comment__content {
+            .cmt__wrapper, .rep__wrapper{
+                display: grid;
+                grid-template-columns: repeat(24, 1fr);
+                [class^="avatar"] {
+                    grid-column: span 1;
+                }
+                [class^="name"]{
+                    grid-column: span 14;
+                }
+                [class^="time"]{
+                    grid-column: span 9;
+                }
+                [class^="content"]{
+                    grid-column: 3 /span 22;
+                }
+                [class^="funcbar"]{
+                    grid-column: 3 /span 22;
+                }
+                [class^="comment-form__wrapper"]{
+                    grid-column: 3 /span 22;
+                    display: grid;
+                    grid-template-columns: repeat(24, 1fr);
+                   
+                }
+                .anwser{
+                    grid-column: 3/span 22;
+                }
+                .answer-show--btn{
+                    grid-column: 3 /span 22;
+                }
+                .answer__wrapper{
+                    grid-column: 3 /span 22;
+                }
+            }
+        }
+    }
+}
+.affl-ads__wrapper{
+    .prod-item{
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        picture{
+            grid-column: 2 / span 4;
+            grid-row: span 3;
+        }
+        .title{
+            grid-column: 7 / span 16;
+            grid-row: span 2;
+        }
+        .order-btn{
+            grid-column: 16 / span 10;
+            grid-row: span 1;
+        }
+    }
+}

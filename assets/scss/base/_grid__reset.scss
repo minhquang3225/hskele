@@ -1,0 +1,117 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    #general-navbar {
+        grid-column: span 24;
+        .topicOpts__container {
+            display: grid;
+            grid-column-gap: $pd-7;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-rows: minmax(auto, auto);
+            .optCard {
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+        }
+        .navRight__gargets {
+            .garget__setting--box.active {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(auto, minmax(60px, 1fr));
+                grid-row-gap: 20px;
+                grid-column-gap: 10px;
+                .setting-lightMode {
+                    grid-column: span 2;
+                    grid-row: span 1;
+                }
+                .setting-account {
+                    grid-column: span 2;
+                    grid-row: span 1;
+                }
+                .setting-sound {
+                    grid-column: span 2;
+                    grid-row: span 1;
+                }
+                .setting-logOut {
+                    grid-column: span 2;
+                    grid-row: span 1;
+                }
+                .setting-write {
+                    grid-column: span 4;
+                    grid-row: span 1;
+                }
+                .setting-vip {
+                    grid-column: span 2;
+                    grid-row: span 2;
+                }
+            }
+        }
+    }
+    footer {
+        grid-column: span 24;
+        grid-row: span 1;
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        grid-gap: 10px 20px;
+        .f-intro {
+            grid-column: 3 / span 10;
+            .brand {
+                display: grid;
+                align-items: center;
+                grid-template-columns: repeat(12, 1fr);
+                .brand__logo {
+                    grid-column: span 2;
+                }
+                .brand__name {
+                    grid-column: span 10;
+                }
+            }
+            .intro {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-column-gap: $pd-3;
+                .intro__content {
+                    grid-column: 3 / span 11;
+                }
+            }
+        }
+        .f-navigation {
+            grid-column: span 10;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            .f__title--navigation {
+                grid-column: span 12;
+            }
+            .nav-topic {
+                grid-column: 2 / span 5;
+            }
+            .nav-page {
+                grid-column: 8 / span 5;
+            }
+            ul {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                li {
+                    grid-column: span 1;
+                }
+            }
+        }
+        .f-social {
+            grid-column: 3 / span 8;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            .f__title--social {
+                grid-column: 2 / span 11;
+            }
+            .f__social-share {
+                grid-column: 3 / span 10;
+            }
+        }
+        .f-contact {
+            grid-column: 13 / span 10;
+        }
+        .f-copyright {
+            grid-column: span 24;
+        }
+    }
+}

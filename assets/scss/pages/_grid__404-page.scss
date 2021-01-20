@@ -1,0 +1,7 @@
+.page-404__wrapper{
+    // display: grid;
+    grid-column: span 24;
+    // border: 2px dashed cyan;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 40px;
+}

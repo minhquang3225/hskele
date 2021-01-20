@@ -1,0 +1,203 @@
+.garget-setting__wrapper{
+    & > button {
+        @include neu_box_float($r_soft, var(--cl_bg_05), var(--cl_shadow_05), var(--cl_shadow_06), 3px, 6px);
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: $r_medium;
+        color: var(--cl_txt_03);
+        font-size: $txt-lg;
+    }
+}
+.garget-setting__dialog {
+    @include neu_box_float($r_thin, var(--cl_bg_dlog), var(--cl_shadow_04), var(--cl_shadow_03), 3px, 1px);
+    position: absolute;
+    width: 600px;
+    display: none;
+    top: 70px;
+    right: 0;
+    padding: $pd-4;
+    color: var(--cl_txt_02);
+    
+    &.active {
+        display: flex;
+    }
+    .general-setting__wrapper {
+        width: 60%;
+
+        .general-setting__content {
+            padding: 0 50px 0 20px;
+            [class^="setting"] {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 15px 0;
+                font-weight: bold;
+                .sub-setting__wrapper {
+                    width: 100%;
+                    padding-top: 10px;
+                    [class^="sub-setting"] {
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 12px;
+                        padding-left: 10px;
+                        margin: 5px 0;
+                    }
+                }
+            }
+        }
+        .switch {
+            display: inline-block;
+            position: relative;
+            width: 40px;
+            height: 20px;
+            border-radius: 20px;
+            // background: transparent;
+            border: 2px solid #ccc;
+            transition: background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+            vertical-align: middle;
+            cursor: pointer;
+            &.small {
+                width: 30px;
+                height: 14px;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                transform: translateY(-50%);
+                top: 50%;
+                left: 2px;
+                width: 17px;
+                height: 17px;
+                background: #fafafa;
+                border-radius: 50%;
+                transition: left 0.28s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+                    box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            &.small::before {
+                left: 1px;
+                width: 13px;
+                height: 13px;
+            }
+            &:active::before {
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28), 0 0 0 20px rgba(128, 128, 128, 0.1);
+            }
+        }
+
+        input:checked + .switch {
+            border-color: lime;
+        }
+        input:checked + .switch::before {
+            left: 21px;
+            border-color: #fff;
+        }
+        input:checked + .switch.small::before {
+            left: 16px;
+            border-color: #fff;
+        }
+        input:checked + .switch:active::before {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28), 0 0 0 20px rgba(0, 150, 136, 0.2);
+        }
+        .switch.untouch {
+            pointer-events: none;
+        }
+    }
+    .account-setting__wrapper {
+        width: 40%;
+        .account-info__wrapper {
+            // box-shadow: 4px 4px 5px #0f1316, -4px -4px 5px #161d20;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+        }
+        .account-info__avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 3px solid #f3f3f3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+                font-size: 30px;
+            }
+        }
+        .account-info__username {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .account-info__email {
+            font-size: 12px;
+            color: #f7f7f7f7;
+        }
+        .account-info__status {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 10px 0;
+            font-size: 10px;
+            [class^="account-info__status"] {
+                border: 1px solid #333;
+                border-radius: 20px;
+                padding: 5px 10px;
+                white-space: nowrap;
+                width: max-content;
+                background: transparent;
+                margin: 4px 5px;
+                text-align: center;
+                &::after {
+                    font-weight: bold;
+                    margin-left: 5px;
+                }
+                &.active {
+                    pointer-events: none;
+                    &::after {
+                        content: "\2713";
+                        color: lime;
+                    }
+                }
+                &.unactive {
+                    &::after {
+                        content: "\00274C";
+                        color: lime;
+                    }
+                }
+                &.warning {
+                    &::after {
+                        content: "\0021";
+                        color: orange;
+                    }
+                }
+            }
+        }
+        .account-edit__wrapper {
+            font-size: 12px;
+            color: cyan;
+            font-style: italic;
+        }
+        .account-auth__wrapper {
+            margin-top: 10px;
+            button {
+                display: block;
+                margin-bottom: $mg-3;
+                font-size: 12px;
+                font-style: italic;
+                border-radius: 20px;
+                // background: violet;
+            }
+        }
+        .account-premium__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        .account-premium__access--btn {
+            border: 2px solid var(--cl_theme_01);
+            background:var(--cl_theme_01);
+            padding: 4px 15px;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+    }
+}

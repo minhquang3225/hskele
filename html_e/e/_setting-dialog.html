@@ -1,0 +1,93 @@
+<button data-toggle="dialog" data-target="#setting-box"> <i class="fas fa-cog"></i> </button>
+<div id="setting-box" class="garget-setting__dialog">
+    <div class="general-setting__wrapper">
+        <h3 class="general-setting__title"> Cài đặt chung</h3>
+        <div class="general-setting__content">
+            <div class="setting-light">
+                <span class="type">Giao diện tối</span>
+                <input type="checkbox" hidden="hidden" id="dark-mode-toggle" checked>
+                <label class="switch" for="dark-mode-toggle"></label>
+            </div>
+            <div class="setting-sound">
+                <span>Âm thanh</span>
+                <input type="checkbox" hidden="hidden" id="sound-mode-toggle" checked>
+                <label class="switch" for="sound-mode-toggle"></label>
+            </div>
+            <div class="setting-notification">
+                <span>Thông báo</span>
+                <input type="checkbox" hidden="hidden" id="notification-mode-toggle" checked disabled />
+                <label class="switch" for="notification-mode-toggle"></label>
+                <div class="sub-setting__wrapper">
+                    <div class="sub-setting__noti-post">
+                        <span>Bài viết dành cho bạn</span>
+                        <input type="checkbox" hidden="hidden" id="noti-post-mode-toggle" checked />
+                        <label class="switch small" for="noti-post-mode-toggle"></label>
+                    </div>
+                    <div class="sub-setting__noti-like">
+                        <span>Ai đó like bài viết của bạn</span>
+                        <input type="checkbox" hidden="hidden" id="noti-like-mode-toggle" checked />
+                        <label class="switch small" for="noti-like-mode-toggle"></label>
+                    </div>
+                    <div class="sub-setting__noti-rep">
+                        <span>Ai đó trả lời bình luận của bạn</span>
+                        <input type="checkbox" hidden="hidden" id="noti-rep-mode-toggle" checked />
+                        <label class="switch small" for="noti-rep-mode-toggle"></label>
+                    </div>
+                    <div class="sub-setting__noti-by-email">
+                        <span>Nhận thông báo qua email</span>
+                        <input type="checkbox" hidden="hidden" id="noti-by-email-mode-toggle" checked />
+                        <label class="switch small" for="noti-by-email-mode-toggle"></label>
+                    </div>
+                    <div class="sub-setting__post-noti">
+                        <span>Nhận thông báo qua trình duyệt</span>
+                        <input type="checkbox" hidden="hidden" id="noti-by-browser-mode-toggle" checked />
+                        <label class="switch small" for="noti-by-browser-mode-toggle"></label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="setting-premium">
+                <span>Tài khoản Premium</span>
+                <input type="checkbox" hidden="hidden" id="premium-mode-toggle" />
+                <label class="switch" for="premium-mode-toggle"></label>
+            </div>
+        </div>
+
+    </div>
+    <div class="account-setting__wrapper">
+        <h3 class="account-setting__title"> Tài khoản </h3>
+        <div class="account-setting__content">
+            <div class="account-info__wrapper">
+                <picture class="account-info__avatar imgBx">
+                    <!--              <img src="https://images5.fanpop.com/image/photos/31500000/Naruto-Uzumaki-uzumaki-clan-31514027-213-237.jpg" /> -->
+                    <i class="fas fa-user"></i>
+                </picture>
+                <div class="account-info__username">Hoshiguy</div>
+                <div class="account-info__email">taikhoankhach@xyz.com</div>
+                <div class="account-info__status">
+                    <a href="https://www.toptal.com/designers/htmlarrows/symbols/check-mark/"
+                        target="_blank" class="account-info__status--verify active">đã xác thực </a>
+                    <a href="https://www.toptal.com/designers/htmlarrows/symbols/check-mark/"
+                        target="_blank" class="account-info__status--active unactive"> chưa kích hoạt</a>
+                    <a href="https://www.toptal.com/designers/htmlarrows/symbols/check-mark/"
+                        target="_blank" class="account-info__status--type warning"> Tài khoản thường</a>
+                </div>
+            </div>
+            <div class="account-edit__wrapper">
+                <a href="" class="account-auth__logout--btn">Chỉnh sửa thông tin tài khoản</a>
+            </div>
+            <div class="account-auth__wrapper">
+                <button class="account-auth__logout--btn link active">Đăng xuất</button>
+                <button class="account-auth__signup--btn link active"> Đăng kí</button>
+                <button class="account-auth__login--btn link active"> Đăng nhập</button>
+            </div>
+            <div class="account-premium__wrapper">
+                <button class="account-premium__access--btn"><a href=""> Kích hoạt premium chỉ với
+                        5k</a></button>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

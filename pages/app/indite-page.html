@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" contenlt="ie=edge">
+    <title>Put feel on your line</title>
+    <link rel="shortcut icon" href="https://images.photowall.com/products/55141/starry-night-sky.jpg?h=699&q=85"
+        type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/indite-page.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/fonts/fontawesome-pro-5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/flexSystem.css">
+    <!-- froala css -->
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/froala_style.css">
+    <link href="../../assets/library/froala_editor_3.2.3/css/froala_editor.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins.pkgd.min.css">
+    <!-- <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/code_view.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/char_counter.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/colors.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/draggable.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3//css/plugins/emoticons.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/file.min.css" />
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/files_manager.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/fullscreen.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/help.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/image.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/image_manager.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/line_breaker.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/quick_insert.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/special_characters.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/table.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/trim_video.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/plugins/video.min.css">
+    <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/third_party/image_tui.min.css"> -->
+    <!-- <link rel="stylesheet" href="../../assets/library/froala_editor_3.2.3/css/third_party/spell_checker.min.css"> -->
+    <!-- third ui -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tui-image-editor@3.2.2/dist/tui-image-editor.css"> -->
+    <!-- <link rel="stylesheet" href="https://uicdn.toast.com/tui-color-picker/latest/tui-color-picker.css"> -->
+</head>
+
+<body class="dark-theme">
+    <div class="container">
+        <nav insert="../../html_e/user-nav.html" id="user-navbar" class="sidebar__left"></nav>
+        <!-- <section class="breadcrumb__wrapper" insert="../../html_e/breadcrumb.html"></section> -->
+        <main class="indite-page__wrapper">
+            <div class="indite-page__wrapper--top">
+                <header insert="../../html_e/admin-header.html" class="admin-header__wrapper"></header>
+            </div>
+            <div class="indite-page__wrapper--left">
+                <!-- <section class="funcbar__wrapper" insert="../../html_e/funcbar.html"> </section> -->
+            </div>
+            <form class="indite-page__wrapper--center">
+                <div class="post-title__wrapper">
+                    <label class="post-title--label" for="post-title">Tiêu
+                        đề</label>
+                    <div class="post-title--input">
+                        <textarea placeholder="Tiêu đề bài viết" id="post-title" style="resize: none" rows="1"
+                            oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea>
+                    </div>
+                </div>
+                <div class="post-editor__wrapper">
+                    <label class="post-editor--label" for="post-editor">Nội dung</label>
+                    <div id="post-editor" class="editor__wrapper"></div>
+                </div>
+                <div class="post-category__wrapper">
+                    <label class="post-category--label" for="post-title">Chủ đề</label>
+                    <div class="post-category--input">
+                        <select name="category" id="post-category-1">
+                            <option value="0" data-props="text value" data-sets="data_post_category--text data_post_category--id" >Văn chương</option>
+                        </select>
+                        <select name="category" id="post-category-2">
+                            <option value="0" data-props="text value" data-sets="data_post_category--text data_post_category--id" >Văn chương</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="post-classify__wrapper" insert="../../html_e/post-classify.html">
+                    
+                </div>
+
+                <!-- <article class="post__wrapper" insert="../../html_e/post.html"></article> -->
+                <!-- <section class="rating__wrapper" insert="../../html_e/rating.html"></section> -->
+                <!-- <section class="comment__wrapper" insert="../../html_e/comment.html"></section> -->
+            </form>
+            <div class="indite-page__wrapper--right">
+
+            </div>
+            <div class="indite-page__wrapper--bottom">
+                <!-- <section class="post-sug__wrapper" insert="../../html_e/post-sug.html"></section> -->
+            </div>
+            <!-- <div class="box2"></div> -->
+        </main>
+
+        <!-- <footer insert="../../html_e/footer.html"></footer> -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+    <!-- <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script> -->
+    <!-- <script src="../../assets/library/ckeditor/ckeditor.js"></script> -->
+    <script src="../../assets/library/froala_editor_3.2.3/js/froala_editor.min.js"></script>
+    <script src="../../assets/library/froala_editor_3.2.3/js/languages/vi.js"></script>
+
+
+    <script src="../../assets/library/froala_editor_3.2.3/js/plugins.pkgd.min.js"></script>
+    <!-- 3rd plugin -->
+    <!-- <script src="../../assets/library/froala_editor_3.2.3/js/third_party/spell_checker.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.6.7/fabric.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/tui-code-snippet@1.4.0/dist/tui-code-snippet.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/tui-image-editor@3.2.2/dist/tui-image-editor.min.js"></script> -->
+
+    <script src="../../assets/library/froala_editor_3.2.3/js/third_party/image_tui.min.js"></script>
+
+
+
+    <script src="../../assets/js/script.js"></script>
+    <!-- <script src="../../assets/js/observer.js"></script> -->
+    <!-- <script src="../../assets/js/nav.js" defer></script> -->
+    <script src="../../assets/js/tab.js"></script>
+    <!-- <script src="../../assets/js/search.js"></script> -->
+    <script src="../../assets/js/class.js"></script>
+    <script src="../../assets/js/modal.js" defer></script>
+    <!-- <script src="../../assets/js/comment.js" defer></script> -->
+    <script src="../../assets/js/showing.js" defer></script>
+    <script src="../../assets/js/dialog.js"></script>
+    <script src="../../assets/js/indite-page.js"></script>
+    <script>
+        setTimeout(() => {
+            MakeClone([
+                {
+                    eleName: '#post-category-1 option',
+                    numClone: 10,
+                    loopTimes: 1,
+                },
+                {
+                    eleName: '#post-category-2 option',
+                    numClone: 10,
+                    loopTimes: 1,
+                },
+                
+
+            ])
+            var editor = new FroalaEditor('#post-editor', {
+                language: 'vi',
+                toolbarBottom: false,
+                toolbarButtons: {
+                    'moreText': {
+                        buttons: ['bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript', 'fontFamily', 'fontSize', 'inlineClass', 'inlineStyle', 'clearFormatting']
+                    },
+                    'moreParagraph': {
+                        buttons: ['alignLeft', 'alignCenter', 'alignRight', 'alignJustify', 'paragraphFormat', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', , 'insertHR', 'formatOLSimple', 'paragraphStyle', 'lineHeight'],
+                        buttonsVisible: 10,
+                    },
+                    'moreMisc': {
+                        buttons: ['fullscreen', 'html', 'undo', 'redo', 'print', 'getPDF', 'spellChecker', 'selectAll', 'help'],
+                        buttonsVisible: 4,
+                        align: 'right',
+                    },
+                    'moreRich': {
+                        buttons: ['insertLink', 'insertImage', 'insertVideo', 'insertTable', 'emoticons', 'fontAwesome', 'specialCharacters', 'embedly', 'insertFile', 'insertFiles', 'fileMangager'],
+                        buttonsVisible: 8,
+                        align: 'left',
+
+                    },
+
+                }
+                
+            })
+
+
+            // function MinHeightPlugin(editor) {
+            //     this.editor = editor;
+            // }
+
+            // MinHeightPlugin.prototype.init = function () {
+            //     this.editor.ui.view.editable.extendTemplate({
+            //         attributes: {
+            //             style: {
+            //                 minHeight: '300px',
+            //                 backgroundColor: 'var(--cl_bg_01)',
+            //                 border: '2px solid var(--cl_txt_01)',
+            //                 paddingLeft: '20px'
+            //             },
+
+
+            //         }
+            //     });
+            // };
+            // ClassicEditor.builtinPlugins.push(MinHeightPlugin);
+            // ClassicEditor
+            //     .create(document.querySelector('#post-editor'), {
+            //         image: {
+            //             toolbar: ['imageTextAlternative']
+            //         }
+            //     })
+            //     .catch(error => {
+            //         console.error(error);
+            //     });
+            // CKEDITOR.replace( 'editor' );
+            // CKEDITOR.replace('post-editor');
+            // CKEDITOR.on('instanceReady', function (e) {
+
+            // });
+
+            // tinymce.init({
+            //     selector: '#post-editor',
+            //     plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+            //     toolbar_mode: 'floating',
+            // });
+        }, 900)
+    </script>
+</body>
+
+</html>

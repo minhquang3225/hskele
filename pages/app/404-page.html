@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Put feel on your line</title>
+    <link rel="shortcut icon" href="https://images.photowall.com/products/55141/starry-night-sky.jpg?h=699&q=85"
+        type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/404-page.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/fonts/fontawesome-pro-5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/flexSystem.css">
+    <!-- <script src="../../assets/js/importHTML.js async"></script> -->
+</head>
+
+<body class="dark-theme">
+    <div class="container">
+        <nav insert="../../html_e/nav.html" id="general-navbar"></nav>
+        <!-- <aside class="sidebar__left"></aside> -->
+        <main class="page-404__wrapper" insert="../../html_e/page-404__wrapper.html">
+
+        </main>
+        <!-- <aside class="sidebar__right"></aside> -->
+        <footer insert="../../html_e/footer.html"></footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../../assets/js/script.js"></script>
+    <!-- <script src="../../assets/js/observer.js"></script> -->
+    <script src="../../assets/js/nav.js" defer></script>
+    <script src="../../assets/js/showing.js"></script>
+    <script src="../../assets//js/dialog.js"></script>
+    <script src="../../assets/js/modal.js"></script>
+    <!-- <script src="../../assets/js/tab.js"></script> -->
+    <script src="../../assets/js/search.js" defer></script>
+
+    <script>
+        setTimeout(() => {
+            MakeClone([
+                {
+                    eleName: '.postItem-full',
+                    numClone: 6,
+                    loopTimes: 3,
+                },
+                {
+                    eleName: '.list-item',
+                    numClone: 6,
+                    loopTimes: 2,
+                },
+                {
+                    eleName: '.mess',
+                    numClone: 6,
+                    loopTimes: 2,
+                }
+
+            ])
+            function drawVisor() {
+                const canvas = document.getElementById('visor');
+                const ctx = canvas.getContext('2d');
+
+                ctx.beginPath();
+                ctx.moveTo(5, 45);
+                ctx.bezierCurveTo(15, 64, 45, 64, 55, 45);
+
+                ctx.lineTo(55, 20);
+                ctx.bezierCurveTo(55, 15, 50, 10, 45, 10);
+
+                ctx.lineTo(15, 10);
+
+                ctx.bezierCurveTo(15, 10, 5, 10, 5, 20);
+                ctx.lineTo(5, 45);
+
+                ctx.fillStyle = '#2f3640';
+                ctx.strokeStyle = '#f5f6fa';
+                ctx.fill();
+                ctx.stroke();
+            }
+
+            const cordCanvas = document.getElementById('cord');
+            const ctx = cordCanvas.getContext('2d');
+
+            let y1 = 160;
+            let y2 = 100;
+            let y3 = 100;
+
+            let y1Forward = true;
+            let y2Forward = false;
+            let y3Forward = true;
+
+            function animate() {
+                requestAnimationFrame(animate);
+                ctx.clearRect(0, 0, innerWidth, innerHeight);
+
+                ctx.beginPath();
+                ctx.moveTo(130, 170);
+                ctx.bezierCurveTo(250, y1, 345, y2, 400, y3);
+
+                ctx.strokeStyle = 'white';
+                ctx.lineWidth = 8;
+                ctx.stroke();
+
+
+                if (y1 === 100) {
+                    y1Forward = true;
+                }
+
+                if (y1 === 300) {
+                    y1Forward = false;
+                }
+
+                if (y2 === 100) {
+                    y2Forward = true;
+                }
+
+                if (y2 === 310) {
+                    y2Forward = false;
+                }
+
+                if (y3 === 100) {
+                    y3Forward = true;
+                }
+
+                if (y3 === 317) {
+                    y3Forward = false;
+                }
+
+                y1Forward ? y1 += 1 : y1 -= 1;
+                y2Forward ? y2 += 1 : y2 -= 1;
+                y3Forward ? y3 += 1 : y3 -= 1;
+            }
+
+            drawVisor();
+            animate();
+        }, 500)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.link {
+    position: relative;
+    text-decoration: none;
+    color: var(--cl_txt_02);
+    font-style: italic;
+    cursor: pointer;
+    &.active {
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            bottom: -0.3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            border-bottom: 1px dashed var(--cl_theme_02);
+        }
+    }
+}
+.link-style {
+    border-bottom: 2px dashed $cl_theme_02-d;
+    font-style: italic;
+    line-height: 1.2rem;
+    cursor: pointer;
+}
